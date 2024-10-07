@@ -1,0 +1,98 @@
+[
+    {
+        "songTitle": "Nights",
+        "songDescription": "Você sente o peso das mudanças na sua vida de forma intensa. É como se cada fase tivesse dois lados – um que te exalta e outro que te esgota. Você encontra beleza na dualidade, navegando entre os altos e baixos, buscando equilíbrio nas transições inevitáveis. Por mais caótico que seja, você sabe que esses contrastes moldam quem você é, e mesmo nos momentos de maior solidão, há uma profunda aceitação da sua jornada pessoal.",
+        "songQuote": "Did you call me from a seance? You are from my past life.",
+        "themes": {
+            "memories": "complex",
+            "environment": "urban",
+            "change": "catalyst",
+            "lovestyle": "conflicted",
+            "emotionalProcessing": "solitude"
+        }
+    },
+    {
+        "songTitle": "Thinkin' Bout' You",
+        "songDescription": "Você guarda um amor que nunca realmente desapareceu, um sentimento que, por mais que o tempo passe, ainda te prende em lembranças profundas e em momentos de vulnerabilidade. As emoções que você sente são poderosas e transformadoras, e às vezes você tenta resistir a elas, mas sabe que fazem parte de quem você é. Esse amor te moldou, e mesmo que a vida tenha seguido em frente, ele ainda habita seus pensamentos como uma lembrança vívida e nostálgica.",
+        "songQuote": "No, I don't like you, I just thought you were cool enough to kick it.",
+        "themes": {
+            "memories": "nostalgia",
+            "environment": "domestic",
+            "change": "resistant",
+            "lovestyle": "intense",
+            "emotionalProcessing": "artistic"
+        }
+    },
+    {
+        "songTitle": "Ivy",
+        "songDescription": "Você já experimentou um amor que, embora tenha sido bonito em seus momentos de esplendor, deixou marcas profundas. Essa relação te transformou de maneiras que você talvez não tenha esperado, e agora, olhando para trás, há uma mistura de saudade e dor. Você abraça essas cicatrizes como parte do crescimento, sabendo que mesmo os momentos dolorosos moldam a sua história. Esse amor foi gradual, construído em confiança, mas também vulnerável às falhas humanas.",
+        "songQuote": "I thought that I was dreaming when you said you loved me.",
+        "themes": {
+            "memories": "nostalgia",
+            "environment": "domestic",
+            "change": "embrace",
+            "lovestyle": "gradual",
+            "emotionalProcessing": "sharing"
+        }
+    },
+    {
+        "songTitle": "Self Control",
+        "songDescription": "Você tem uma força emocional impressionante, mas às vezes se vê preso entre o que deseja e o que é melhor para você. A sua luta interna para manter o controle de suas emoções reflete uma necessidade de independência, mesmo quando o coração pede o contrário. O amor que viveu deixou marcas, e há momentos em que você se pergunta como teria sido se as circunstâncias fossem diferentes. Mas no fundo, você sabe que parte de crescer é aceitar o que não se pode controlar.",
+        "songQuote": "Wish I was there, wish we’d grown up on the same advice.",
+        "themes": {
+            "memories": "nostalgia",
+            "environment": "domestic",
+            "change": "selective",
+            "lovestyle": "conflicted",
+            "emotionalProcessing": "solitude"
+        }
+    },
+    {
+        "songTitle": "Pink + White",
+        "songDescription": "A vida para você é uma série de momentos fugazes e breves, onde você encontra significado nas pequenas coisas – a luz que passa pelas árvores, o cheiro da chuva, o toque suave do vento. Há uma aceitação serena da transitoriedade da vida, como se cada dia fosse uma pintura em constante mutação. Você se permite sentir o presente com plenitude, sabendo que nada é permanente, e é nessa fluidez que você encontra beleza e tranquilidade.",
+        "songQuote": "You showed me love, glory from above.",
+        "themes": {
+            "memories": "present",
+            "environment": "nature",
+            "change": "catalyst",
+            "lovestyle": "gradual",
+            "emotionalProcessing": "artistic"
+        }
+    },
+    {
+        "songTitle": "White Ferrari",
+        "songDescription": "Você é uma alma solitária que busca significado em jornadas silenciosas e introspectivas. Muitas vezes, você sente que o mundo ao seu redor se move rápido demais, enquanto tudo o que você deseja é desacelerar e viver mais profundamente cada momento. Essa viagem interior te leva a questionar as escolhas que fez e o que ainda está por vir. Há uma resistência sutil às mudanças rápidas, mas você também sabe que o tempo não para para ninguém, e isso te enche de um misto de saudade e aceitação.",
+        "songQuote": "You dream of walls that hold us in prison, it's just a scar, at least that's what they call it.",
+        "themes": {
+            "memories": "nostalgia",
+            "environment": "imaginary",
+            "change": "resistant",
+            "lovestyle": "independent",
+            "emotionalProcessing": "solitude"
+        }
+    },
+    {
+        "songTitle": "Seigfried",
+        "songDescription": "Você tem um espírito artístico que frequentemente se sente desconectado das normas da sociedade. Você questiona o seu lugar no mundo, buscando algo mais profundo e significativo. Há uma aceitação de que você é diferente, mas isso nem sempre traz paz. Sua mente vagueia por paisagens imaginárias, onde você pode ser verdadeiramente livre, e a ideia de conformidade te afasta. Você aceita o caos interior como parte do processo de autodescoberta.",
+        "songQuote": "I'd rather live outside, I'd rather chip my pride than lose my mind out here.",
+        "themes": {
+            "memories": "complex",
+            "environment": "imaginary",
+            "change": "embrace",
+            "lovestyle": "conflicted",
+            "emotionalProcessing": "artistic"
+        }
+    },
+    {
+        "songTitle": "Godspeed",
+        "songDescription": "Você é alguém que sabe deixar ir, mesmo que isso custe lágrimas. No fundo, você entende que o amor verdadeiro nem sempre significa posse ou permanência. Há uma serenidade no modo como você aceita o fim das coisas, enviando bons desejos para aqueles que um dia estiveram perto do seu coração. Essa aceitação traz paz, e você mantém a esperança de que, um dia, o futuro guardará algo igualmente bonito, mas de uma nova forma.",
+        "songQuote": "I will always love you, how I do.",
+        "themes": {
+            "memories": "future",
+            "environment": "domestic",
+            "change": "embrace",
+            "lovestyle": "gradual",
+            "emotionalProcessing": "sharing"
+        }
+    }
+]
