@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual música do Frank Ocean é você?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1 id="quiz-title">Qual música do Frank Ocean você é?</h1>
+
+        <!-- Pergunta 1 -->
+        <div id="question1" class="question-card">
+            <label><h4>1. Como você lida com memórias do passado?</h4></label>
+            <div class="button-group">
+                <label class="radio-button">
+                    <input type="radio" name="memories" value="nostalgia" required>
+                    <span>🕰 Sinto nostalgia frequentemente</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="memories" value="present" required>
+                    <span>🏃‍♂️ Prefiro viver o presente</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="memories" value="future" required>
+                    <span>🚀 Penso mais no futuro</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="memories" value="complex" required>
+                    <span>🎭 Tenho uma relação complexa com o passado</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Pergunta 2 -->
+        <div id="question2" class="question-card" style="display: none;">
+            <label><h4>2. Qual ambiente melhor descreve onde você se sente mais você?</h4></label>
+            <div class="button-group">
+                <label class="radio-button">
+                    <input type="radio" name="environment" value="urban" required>
+                    <span>🏙 No meio da cidade</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="environment" value="nature" required>
+                    <span>🌲 Ao redor da natureza</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="environment" value="domestic" required>
+                    <span>🏡 Na minha casinha</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="environment" value="imaginary" required>
+                    <span>💭 No meu mundinho imaginário</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Pergunta 3 -->
+        <div id="question3" class="question-card" style="display: none;">
+            <label><h4>3. Como você lida com mudanças na sua vida?</h4></label>
+            <div class="button-group">
+                <label class="radio-button">
+                    <input type="radio" name="change" value="embrace" required>
+                    <span>💪 Eu abraço as mudanças com confiança</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="change" value="resistant" required>
+                    <span>🛡 Não gosto de mudanças, prefiro o familiar</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="change" value="selective" required>
+                    <span>🔍 Sou seletivo, aceito mudanças que me interessam</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="change" value="catalyst" required>
+                    <span>⚡ Vejo mudanças como incentivo para crescimento</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div id="question4" class="question-card" style="display: none;">
+            <label><h4>4. Como você descreve seu jeito de amar?</h4></label>
+            <div class="button-group">
+                <label class="radio-button">
+                    <input type="radio" name="lovestyle" value="intense" required>
+                    <span>🔥 Meu amor é intenso e apaixonado</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="lovestyle" value="gradual" required>
+                    <span>🌱 Meu amor cresce gradualmente</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="lovestyle" value="independent" required>
+                    <span>💖 Valorizo a independência em um relacionamento</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="lovestyle" value="conflicted" required>
+                    <span>😕 Meu amor muitas vezes é complicado</span>
+                </label>
+            </div>
+        </div>
+
+        <div id="question5" class="question-card" style="display: none;">
+            <label><h4>5. Como você processa suas emoções normalmente?</h4></label>
+            <div class="button-group">
+                <label class="radio-button">
+                    <input type="radio" name="emotionalProcessing" value="artistic" required>
+                    <span>🎨 Através de expressão artística (escrever ou pintar, por exemplo)</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="emotionalProcessing" value="solitude" required>
+                    <span>🏃🏽‍♂️ Preciso ficar um tempo sozinho</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="emotionalProcessing" value="sharing" required>
+                    <span>🤝🏼 Conversando com amigos</span>
+                </label>
+                <label class="radio-button">
+                    <input type="radio" name="emotionalProcessing" value="action" required>
+                    <span>✨ Transformando em ação</span>
+                </label>
+            </div>
+        </div>
+
+
+        <!-- Botões de navegação -->
+        <div id="navigation-buttons">
+            <button id="prevButton" onclick="prevQuestion()">Anterior</button>
+            <button id="nextButton" onclick="nextQuestion()">Próximo</button>
+        </div>
+
+        <!-- Barra de Progresso -->
+        <div class="progress-bar">
+            <div class="progress" style="width: 0;"></div>
+        </div>
+    </div>
+
+    <div id="result" style="display: none;">
+        <h1>Qual música do Frank Ocean você é?</h1>
+        <div class="result-card">
+            <h2 id="songTitle"></h2>
+            <p id="songDescription"></p>
+            <blockquote id="songQuote"></blockquote>
+        </div>
+    </div>
+
+    <!-- Botão para refazer o quiz -->
+    <button id="retryButton" onclick="retryQuiz()" style="display: none;">Refazer o Quiz</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
