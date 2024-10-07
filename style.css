@@ -232,6 +232,14 @@ button:hover:not(:disabled) {
     background-color: #e67e22;
 }
 
+footer {
+    text-align: center;
+    margin-top: var(--padding-padrao);
+    padding: var(--padding-padrao);
+    color: white;
+    font-size: 0.875rem; /* 14px */
+}
+
 @media (max-width: 37.5rem) { /* max-width: 600px */
     .container {
         padding: var(--padding-padrao);

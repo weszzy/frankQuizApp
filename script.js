@@ -118,6 +118,7 @@ function determineSong(memories, environment, change, lovestyle, emotionalProces
     if (matchingSongs.length > 0) {
         const randomIndex = Math.floor(Math.random() * matchingSongs.length);
         const selectedSong = matchingSongs[randomIndex];
+        var downloadButton = document.getElementById("downloadButton");
 
         // Exibir o resultado
 document.getElementById('quiz-container').style.display = 'none'; // Ocultar o quiz
